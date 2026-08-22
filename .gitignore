@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Ortam değişkenleri
+.env
+
+# Üretilen / indirilen video dosyaları
+downloads/*
+outputs/*
+!downloads/.gitkeep
+!outputs/.gitkeep
+
+# Whisper model önbelleği (varsayılan olarak kullanıcı home dizinine iner ama garanti olsun)
+.cache/
+
+# Editör / işletim sistemi
+.DS_Store
+.vscode/
+.idea/

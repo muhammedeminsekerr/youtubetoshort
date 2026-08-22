@@ -1,0 +1,11 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-dotenv==1.0.1
+yt-dlp==2026.8.19
+faster-whisper==1.2.1
+# faster-whisper huggingface_hub'ı gevşek bırakıyor; 1.x sürümü httpx'e
+# geçişte "proxies" hatasına yol açıyor, bu yüzden kararlı 0.x'e sabitliyoruz.
+huggingface_hub==0.36.2
+groq==1.6.0
+python-multipart==0.0.9
+jinja2==3.1.4
